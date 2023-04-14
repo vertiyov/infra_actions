@@ -71,4 +71,4 @@ jobs:
             sudo docker pull vertiyov/idgaf
             #остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker run --rm -d -p 8000:5000 vertiyov/idgaf
+            sudo docker run --rm -d -p 5000:5000 vertiyov/idgaf
